@@ -18,7 +18,7 @@ jobs:
       run: mipsel-linux-gnu-gcc call_rtsp.c -o call_rtsp -ldl
 
     - name: Upload artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: call_rtsp_mips
         path: call_rtsp
